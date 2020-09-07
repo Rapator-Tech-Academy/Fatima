@@ -12,6 +12,18 @@ if cityName in NextDestination:
   print(f'{cityName} is Your Next Destinaton')
 
 
+
+#for
+"""
+your_next_destination = input("Choose where to go next: ")
+
+for cityName in NextDestination:
+    if cityName == your_next_destination:
+        print(f'{cityName}.capitalize() you go next')
+        break
+"""
+
+
 #while
 """"
 i=0
@@ -25,13 +37,4 @@ while len(NextDestination) >= i:
 """
 for cityName in NextDestination:
     print(cityName)
-"""
-
-"""
-your_next_destination = input("Choose where to go next: ")
-
-for cityName in NextDestination:
-    if cityName == your_next_destination:
-        print(f'{cityName} you go next')
-        break
 """
