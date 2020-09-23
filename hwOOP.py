@@ -21,7 +21,7 @@ class Employee:
     @classmethod #decorator, turn regular method into class method 
     def set_raise_amount(cls, amount):
         cls.raise_amount = amount
-
+    
 
     
 emp_1 = Employee('Fatima', 'Askerova', 50000)
